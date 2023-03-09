@@ -7,8 +7,137 @@
  * copyright 2022 @codewithsadee
  */
 
+.border {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  /*z-index: 1;*/
+  alignment: center;
+  margin-bottom: 30px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  z-index: 1;
+  alignment: center;
+  margin-bottom: 30px;
+}
+
+.social {
+  font-size:37px;
+  padding: 10px;
+  min-width: 120px;
+  width: 120px !important;
+  height: 95px !important;
+  text-align: center;
+  border-radius: 20px;
+
+  background: conic-gradient(rgba(24, 24, 24, 0.45) 40deg, rgba(57, 57, 82, 0.25) 270deg, rgba(21, 49, 77, 0.75) 5deg);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(21, 49, 77, 0.75);
+
+}
+
+.social a{
+  color: rgba(255,255,255,0.51);
+}
+
+.social p {
+  font-size :15px;
+  color:var(--white-2);
+}
+
+.social:hover{
+  background: rgba(21, 49, 77, 0.75);
+}
+
+.fa-phone-square:hover{
+  color: #158f46;
+}
+
+.fa-envelope:hover{
+  color: #812a2a;
+}
+
+.fa-linkedin-square:hover{
+  color: rgb(0, 53, 152);
+}
+
+.fa-skype:hover{
+  color: #61b4fa;
+}
+
+.fa-whatsapp:hover{
+  color: #04ec5e;
+}
+
+.fa-telegram:hover{
+  color: #06d2ff;
+}
+
+.download {
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  alignment: center;
+  margin-bottom: 30px;
+}
+
+.file{
+  padding: 14px;
+  margin: auto;
+  background: rgba(57, 57, 63, 0.4);
+  border-radius: inherit;
+  text-align: center;
+}
+
+.cvdownload {
+  /*border-style: solid;*/
+  font-size:20px;
+  padding: 15px 45px;
+
+  width: 230px;
+
+  height: 60px;
+
+  text-align: center;
+  border-radius: 40px;
+  background: conic-gradient(rgba(34, 34, 56, 0.13) 40deg, rgba(29, 36, 47, 0.45) 270deg, rgba(38, 66, 84, 0.45) 5deg);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(73, 157, 151, 0.58);
+
+}
+.down-btn {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
 
 
+.down-btn span{
+  padding-left: 8px;
+  color: #fff;
+}
+
+.down-btn ion-icon {
+  font-size: 25px;
+  color: #fff;
+}
+.cvdownload:hover{
+  background: rgba(33, 81, 112, 0.63);
+}
+
+.down-btn ion-icon:hover{
+  color: #5ed940;
+}
+
+.down-btn span:hover{
+  color: #5ed940;
+}
 
 
 /*-----------------------------------*\
@@ -1928,140 +2057,5 @@ textarea.form-input::-webkit-resizer { display: none; }
   .checked {
     color: orange;
   }
-
-
-  .border {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    /*z-index: 1;*/
-    alignment: center;
-    margin-bottom: 30px;
-    overflow-y: auto;
-    width: 100%;
-  }
-
-  .icons-container {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    z-index: 1;
-    alignment: center;
-    margin-bottom: 30px;
-  }
-
-  .social {
-    font-size:37px;
-    padding: 10px;
-    min-width: 120px;
-    width: 120px !important;
-    height: 95px !important;
-    text-align: center;
-    border-radius: 20px;
-
-    background: conic-gradient(rgba(24, 24, 24, 0.45) 40deg, rgba(57, 57, 82, 0.25) 270deg, rgba(21, 49, 77, 0.75) 5deg);
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(21, 49, 77, 0.75);
-
-  }
-
-  .social a{
-    color: rgba(255,255,255,0.51);
-  }
-
-  .social p {
-    font-size :15px;
-    color:var(--white-2);
-  }
-
-  .social:hover{
-    background: rgba(21, 49, 77, 0.75);
-  }
-
-
-  .fa-phone-square:hover{
-    color: #158f46;
-  }
-
-  .fa-envelope:hover{
-    color: #812a2a;
-  }
-
-  .fa-linkedin-square:hover{
-    color: rgb(0, 53, 152);
-  }
-
-  .fa-skype:hover{
-    color: #61b4fa;
-  }
-
-  .fa-whatsapp:hover{
-    color: #04ec5e;
-  }
-
-  .fa-telegram:hover{
-    color: #06d2ff;
-  }
-
-  .download {
-    padding: 80px;
-    display: flex;
-    align-items: center;
-    z-index: 1;
-    alignment: center;
-    margin-bottom: 30px;
-  }
-
-  .file{
-    padding: 14px;
-    margin: auto;
-    background: rgba(57, 57, 63, 0.4);
-    border-radius: inherit;
-    text-align: center;
-  }
-
-  .cvdownload {
-    /*border-style: solid;*/
-    font-size:20px;
-    padding: 15px 45px;
-
-    width: 230px !important;
-
-    height: 60px !important;
-
-    text-align: center;
-    border-radius: 40px;
-    background: conic-gradient(rgba(34, 34, 56, 0.13) 40deg, rgba(29, 36, 47, 0.45) 270deg, rgba(38, 66, 84, 0.45) 5deg);
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(73, 157, 151, 0.58);
-
-  }
-  .down-btn {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-  }
-
-
-  .down-btn span{
-    padding-left: 8px;
-    color: #fff;
-  }
-
-  .down-btn ion-icon {
-    font-size: 25px;
-    color: #fff;
-  }
-  .cvdownload:hover{
-    background: rgba(33, 81, 112, 0.63);
-  }
-
-  .down-btn ion-icon:hover{
-    color: #5ed940;
-  }
-
-  .down-btn span:hover{
-    color: #5ed940;
-  }
-
 
 }
