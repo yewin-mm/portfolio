@@ -24,34 +24,34 @@
   /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
-    to bottom right, 
-    hsl(240, 1%, 25%) 3%, 
-    hsl(0, 0%, 19%) 97%
+          to bottom right,
+          hsl(240, 1%, 25%) 3%,
+          hsl(0, 0%, 19%) 97%
   );
   --bg-gradient-jet: linear-gradient(
-    to bottom right, 
-    hsla(240, 1%, 18%, 0.251) 0%, 
-    hsla(240, 2%, 11%, 0) 100%
+          to bottom right,
+          hsla(240, 1%, 18%, 0.251) 0%,
+          hsla(240, 2%, 11%, 0) 100%
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
-    to bottom right, 
-    hsl(45, 100%, 71%) 0%, 
-    hsla(36, 100%, 69%, 0) 50%
+          to bottom right,
+          hsl(45, 100%, 71%) 0%,
+          hsla(36, 100%, 69%, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
-    135deg, 
-    hsla(45, 100%, 71%, 0.251) 0%, 
-    hsla(35, 100%, 68%, 0) 59.86%
+          135deg,
+          hsla(45, 100%, 71%, 0.251) 0%,
+          hsla(35, 100%, 68%, 0) 59.86%
   ), hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(
-    to bottom right, 
-    hsl(0, 0%, 25%) 0%, 
-    hsla(0, 0%, 25%, 0) 50%
+          to bottom right,
+          hsl(0, 0%, 25%) 0%,
+          hsla(0, 0%, 25%, 0) 50%
   );
   --text-gradient-yellow: linear-gradient(
-    to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+          to right,
+          hsl(45, 100%, 72%),
+          hsl(35, 100%, 68%)
   );
 
   /* solid */
@@ -95,7 +95,7 @@
   /**
    * shadow
    */
-  
+
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
   --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
@@ -509,7 +509,7 @@ main {
 
 
 /**
- * #service 
+ * #service
  */
 
 .service { margin-bottom: 35px; }
@@ -556,15 +556,15 @@ main {
 }
 
 
-.job-title { 
-  margin-bottom: 7px; 
+.job-title {
+  margin-bottom: 7px;
   font-size: 14px;
   color: lightgray;
   text-align: center;
 }
 
 /**
- * #testimonials 
+ * #testimonials
  */
 
 .testimonials { margin-bottom: 30px; }
@@ -730,7 +730,7 @@ main {
 
 
 /**
- * #clients 
+ * #clients
  */
 
 .clients { margin-bottom: 15px; }
@@ -777,7 +777,7 @@ main {
 
 
 /**
- * education and experience 
+ * education and experience
  */
 
 .timeline { margin-bottom: 30px; }
@@ -840,7 +840,7 @@ main {
 
 
 /**
- * skills 
+ * skills
  */
 
 .skills-title { margin-bottom: 20px; }
@@ -1253,7 +1253,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #PORTFOLIO, BLOG 
+   * #PORTFOLIO, BLOG
    */
 
   .project-img,
@@ -1554,6 +1554,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
+
 /**
  * responsive larger than 768px screen
  */
@@ -1647,7 +1648,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: max-content;
     margin-left: auto;
   }
-  
+
 }
 
 
@@ -1690,7 +1691,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * MAIN 
+   * MAIN
    */
 
   main { margin-bottom: 60px; }
@@ -1788,7 +1789,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     background: hsla(0, 0%, 100%, 0.1);
     border-radius: 20px;
     box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
-                inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+    inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
   }
 
   body::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
@@ -1889,170 +1890,178 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 
-.highlight{
-  color: #7cad93;
-}
+  .highlight{
+    color: #7cad93;
+  }
 
-.star{
-  margin-left: auto;
-}
+  .star{
+    margin-left: auto;
+  }
 
-* {
-  box-sizing: border-box;
-}
+  * {
+    box-sizing: border-box;
+  }
 
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  /*min-height: 300px;*/
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+  /* Create two equal columns that floats next to each other */
   .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    /*min-height: 300px;*/
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .checked {
+    color: orange;
+  }
+
+
+  .border {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /*z-index: 1;*/
+    alignment: center;
+    margin-bottom: 30px;
+    overflow-y: auto;
     width: 100%;
   }
-}
 
-.checked {
-  color: orange;
-}
-.icons-container {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  z-index: 1;
-  alignment: center;
-  margin-bottom: 30px;
-}
+  .icons-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 1;
+    alignment: center;
+    margin-bottom: 30px;
+  }
 
-.border{
-  padding: 20px;
-  margin: auto;
-  inset: 1px;
-  background: var(--bg-gradient-jet);
-  border-radius: inherit;
-}
+  .social {
+    font-size:37px;
+    padding: 10px;
+    min-width: 120px;
+    width: 120px !important;
+    height: 95px !important;
+    text-align: center;
+    border-radius: 20px;
 
-.social {
-  font-size:37px;
-  padding: 10px;
-  width: 120px;
-  height: 95px;
-  text-align: center;
-  border-radius: 20px;
+    background: conic-gradient(rgba(24, 24, 24, 0.45) 40deg, rgba(57, 57, 82, 0.25) 270deg, rgba(21, 49, 77, 0.75) 5deg);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(21, 49, 77, 0.75);
 
-  background: conic-gradient(rgba(24, 24, 24, 0.45) 40deg, rgba(57, 57, 82, 0.25) 270deg, rgba(21, 49, 77, 0.75) 5deg);
-  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(21, 49, 77, 0.75);
+  }
 
-}
+  .social a{
+    color: rgba(255,255,255,0.51);
+  }
 
-.social a{
-  color: rgba(255,255,255,0.51);
-}
+  .social p {
+    font-size :15px;
+    color:var(--white-2);
+  }
 
-.social p {
-  font-size :15px;
-  color:var(--white-2);
-}
-
-.social:hover{
-  background: rgba(21, 49, 77, 0.75);
-}
-
-.fa-phone-square:hover{
-  color: #158f46;
-}
-
-.fa-envelope:hover{
-  color: #812a2a;
-}
-
-.fa-linkedin-square:hover{
-  color: rgb(0, 53, 152);
-}
-
-.fa-skype:hover{
-  color: #61b4fa;
-}
-
-.fa-whatsapp:hover{
-  color: #04ec5e;
-}
-
-.fa-telegram:hover{
-  color: #06d2ff;
-}
-
-.download {
-  padding: 80px;
-  display: flex;
-  align-items: center;
-  z-index: 1;
-  alignment: center;
-  margin-bottom: 30px;
-}
-
-.file{
-  padding: 14px;
-  margin: auto;
-  background: rgba(57, 57, 63, 0.4);
-  border-radius: inherit;
-  text-align: center;
-}
-
-.cvdownload {
-  /*border-style: solid;*/
-  font-size:20px;
-  padding: 15px 45px;
-
-  width: 230px;
-
-  height: 60px;
-
-  text-align: center;
-  border-radius: 40px;
-  background: conic-gradient(rgba(34, 34, 56, 0.13) 40deg, rgba(29, 36, 47, 0.45) 270deg, rgba(38, 66, 84, 0.45) 5deg);
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(73, 157, 151, 0.58);
-
-}
-.down-btn {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
+  .social:hover{
+    background: rgba(21, 49, 77, 0.75);
+  }
 
 
-.down-btn span{
-  padding-left: 8px;
-  color: #fff;
-}
+  .fa-phone-square:hover{
+    color: #158f46;
+  }
 
-.down-btn ion-icon {
-  font-size: 25px;
-  color: #fff;
-}
-.cvdownload:hover{
-  background: rgba(33, 81, 112, 0.63);
-}
+  .fa-envelope:hover{
+    color: #812a2a;
+  }
 
-.down-btn ion-icon:hover{
-  color: #5ed940;
-}
+  .fa-linkedin-square:hover{
+    color: rgb(0, 53, 152);
+  }
 
-.down-btn span:hover{
-  color: #5ed940;
-}
+  .fa-skype:hover{
+    color: #61b4fa;
+  }
+
+  .fa-whatsapp:hover{
+    color: #04ec5e;
+  }
+
+  .fa-telegram:hover{
+    color: #06d2ff;
+  }
+
+  .download {
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    alignment: center;
+    margin-bottom: 30px;
+  }
+
+  .file{
+    padding: 14px;
+    margin: auto;
+    background: rgba(57, 57, 63, 0.4);
+    border-radius: inherit;
+    text-align: center;
+  }
+
+  .cvdownload {
+    /*border-style: solid;*/
+    font-size:20px;
+    padding: 15px 45px;
+
+    width: 230px;
+
+    height: 60px;
+
+    text-align: center;
+    border-radius: 40px;
+    background: conic-gradient(rgba(34, 34, 56, 0.13) 40deg, rgba(29, 36, 47, 0.45) 270deg, rgba(38, 66, 84, 0.45) 5deg);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(73, 157, 151, 0.58);
+
+  }
+  .down-btn {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .down-btn span{
+    padding-left: 8px;
+    color: #fff;
+  }
+
+  .down-btn ion-icon {
+    font-size: 25px;
+    color: #fff;
+  }
+  .cvdownload:hover{
+    background: rgba(33, 81, 112, 0.63);
+  }
+
+  .down-btn ion-icon:hover{
+    color: #5ed940;
+  }
+
+  .down-btn span:hover{
+    color: #5ed940;
+  }
 
 
 }
