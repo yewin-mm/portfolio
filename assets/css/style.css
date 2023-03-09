@@ -440,7 +440,7 @@ main {
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
@@ -551,7 +551,7 @@ main {
 .service-item-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
-  font-weight: var(--fw-3);
+  /*font-weight: var(--fw-3);*/
   line-height: 1.6;
 }
 
@@ -761,7 +761,9 @@ main {
   transition: var(--transition-1);
 }
 
-/*.clients-item img:hover { filter: grayscale(0); }*/
+.job-title:hover {
+  color: #c49a40;
+}
 
 
 
@@ -1219,14 +1221,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:hover::before { background: var(--bg-gradient-yellow-2); }
 
-.form-btn:disabled {
-  opacity: 0.7;
-  cursor: not-allowed;
-}
+/*.form-btn:disabled {*/
+/*  opacity: 0.7;*/
+/*  cursor: not-allowed;*/
+/*}*/
 
-.form-btn:disabled:hover { background: var(--border-gradient-onyx); }
+/*.form-btn:disabled:hover { background: var(--border-gradient-onyx); }*/
 
-.form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
+/*.form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }*/
 
 
 
@@ -1924,5 +1926,146 @@ textarea.form-input::-webkit-resizer { display: none; }
 .checked {
   color: orange;
 }
+.icons-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  z-index: 1;
+  alignment: center;
+  margin-bottom: 30px;
+}
+
+.border{
+  padding: 20px;
+  margin: auto;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  /*background: var(--eerie-black-1);*/
+  /*background: #202022FF;*/
+  border-radius: inherit;
+}
+
+.social {
+  /*border-style: solid;*/
+  font-size:37px;
+  padding: 10px;
+  width: 120px;
+  height: 95px;
+  text-align: center;
+  border-radius: 20px;
+
+  background: conic-gradient(rgba(24, 24, 24, 0.45) 40deg, rgba(57, 57, 82, 0.25) 270deg, rgba(21, 49, 77, 0.75) 5deg);
+  /*background: conic-gradient(rgba(24, 24, 24, 0.45) 40deg, rgba(24, 39, 49, 0.37) 270deg, rgba(21, 49, 77, 0.75) 5deg);*/
+  /*background: conic-gradient(rgba(24, 24, 24, 0.45) 40deg, rgba(22, 22, 23, 0.46) 270deg, rgba(33, 33, 79, 0.27) 5deg);*/
+  /*background: conic-gradient(rgba(24, 24, 24, 0.84) 40deg, rgba(23, 22, 22, 0.41) 270deg, rgba(33, 33, 79, 0.2) 5deg);*/
+  /*background: conic-gradient(rgba(24, 24, 24, 0.84) 40deg, rgba(23, 22, 22, 0.41) 270deg, rgba(53, 53, 56, 0.3) 5deg);*/
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(21, 49, 77, 0.75);
+  /*box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(47, 91, 60, 0.53);*/
+
+}
+
+.social a{
+  color: rgba(255,255,255,0.51);
+}
+
+.social p {
+  font-size :15px;
+  color:var(--white-2);
+}
+
+.social:hover{
+  background: rgba(21, 49, 77, 0.75);
+}
+
+.fa-phone-square:hover{
+  color: #158f46;
+}
+
+.fa-envelope:hover{
+  color: #812a2a;
+}
+
+.fa-linkedin-square:hover{
+  color: rgb(0, 53, 152);
+}
+
+.fa-skype:hover{
+  color: #61b4fa;
+}
+
+.fa-whatsapp:hover{
+  color: #04ec5e;
+}
+
+.fa-telegram:hover{
+  color: #06d2ff;
+}
+
+.download {
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  alignment: center;
+  margin-bottom: 30px;
+}
+
+.file{
+  padding: 14px;
+  margin: auto;
+  /*inset: 1px;*/
+  /*background: var(--bg-gradient-jet);*/
+  /*background: var(--eerie-black-1);*/
+  background: rgba(57, 57, 63, 0.4);
+  border-radius: inherit;
+  text-align: center;
+}
+
+.cvdownload {
+  /*border-style: solid;*/
+  font-size:20px;
+  padding: 15px 45px;
+
+  width: 230px;
+
+  height: 60px;
+
+  text-align: center;
+  border-radius: 40px;
+  background: conic-gradient(rgba(34, 34, 56, 0.13) 40deg, rgba(29, 36, 47, 0.45) 270deg, rgba(38, 66, 84, 0.45) 5deg);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(73, 157, 151, 0.58);
+
+}
+.down-btn {
+  /*width: 100%;*/
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.down-btn span{
+  padding-left: 8px;
+  color: #fff;
+}
+
+.down-btn ion-icon {
+  /*padding-left: 1px;*/
+  font-size: 25px;
+  color: #fff;
+}
+.cvdownload:hover{
+  background: rgba(33, 81, 112, 0.63);
+}
+
+.down-btn ion-icon:hover{
+  color: #5ed940;
+}
+
+.down-btn span:hover{
+  color: #5ed940;
+}
+
 
 }
