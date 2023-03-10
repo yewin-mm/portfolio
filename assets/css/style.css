@@ -30,12 +30,12 @@
 .social {
   font-size:35px;
   padding: 10px;
-  min-width: 105px;
-  width: 105px !important;
+  min-width: 110px;
+  width: 110px !important;
   height: 93px !important;
   text-align: center;
   border-radius: 20px;
-
+  margin: auto;
   background: conic-gradient(rgba(24, 24, 24, 0.45) 40deg, rgba(57, 57, 82, 0.25) 270deg, rgba(21, 49, 77, 0.75) 5deg);
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(21, 49, 77, 0.75);
 
@@ -76,9 +76,6 @@
 
 .fa-telegram:hover{
   color: #06d2ff;
-}
-.fa-wechat:hover{
-  color: #3db96f;
 }
 
 .download {
