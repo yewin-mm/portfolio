@@ -28,11 +28,11 @@
 }
 
 .social {
-  font-size:37px;
+  font-size:35px;
   padding: 10px;
-  min-width: 120px;
-  width: 120px !important;
-  height: 95px !important;
+  min-width: 105px;
+  width: 105px !important;
+  height: 93px !important;
   text-align: center;
   border-radius: 20px;
 
@@ -76,6 +76,9 @@
 
 .fa-telegram:hover{
   color: #06d2ff;
+}
+.fa-wechat:hover{
+  color: #3db96f;
 }
 
 .download {
